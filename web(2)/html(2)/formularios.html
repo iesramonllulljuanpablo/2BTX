@@ -1,0 +1,49 @@
+// html:5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="">
+        <label for="nom">Nom:</label><br>
+        <input type="text" name="nom" id="nom"><br>
+        <label for="cognoms">Cognoms:</label><br>
+        <input type="text" name="cognoms" id="cognoms"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required placeholder="nom@gmail.com"><br>
+        <label for="contrasenya">Contrasenya:</label><br>
+        <input type="password" name="contrasenya" id="contrasenya"><br>
+        <label for="data_naixement">Data de naixement</label><br>
+        <input type="date" name="data_naixement" id="data_naixement"><br>
+        <label>Gènere:</label><br>
+        <input type="radio" name="genere" id="home">
+        <label for="home">Home</label><br>
+        <input type="radio" name="genere" id="dona">
+        <label for="dona">Dona</label><br>
+        <input type="radio" name="genere" id="altres">
+        <label for="altres">Altres</label><br>
+        <label for="pais">País de residència</label><br>
+        <select name="pais" id="pais">
+            <option value="">--SELECCIONA UN PAIS</option>
+            <option value="ES">Espanya</option>
+            <option value="FR">França</option>
+            <option value="IT">Itàlia</option>
+            <option value="AL">Alemanya</option>
+            <option value="CO">Colòmbia</option>
+        </select><br>
+        <label for="">Tecnologia</label>
+        <input type="checkbox" name="interessos" id="tecnologia">
+        <label for="">Música</label>
+        <input type="checkbox" name="interessos" id="Musica">
+        <label for="">Esports</label>
+        <input type="checkbox" name="interessos" id="Esports"><br>
+        <label for="missatge">Comentaris adicionals</label><br>
+        <textarea name="missatge" id="missatge" rows="4" cols="40" placeholder="Escriu el missatge aqui"></textarea><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Netejar formulari</button>
+</body>
+</html>
